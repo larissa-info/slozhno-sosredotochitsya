@@ -3,7 +3,9 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   font-family: "IBM Plex mono", sans-serif;
-  background: var(--bg-image) center / cover;  
+  background-image: var(--bg-image);
+  background-position: center;
+  background-size: cover;
   background-color: var(--bg-color);
   background-attachment: fixed;
   max-inline-size: 1024px;
@@ -13,15 +15,22 @@
 }
 
 .theme_dark .page {
-  --text-color: #F1B2CE;
- background: url(../images/cover-image-dark.png) center / cover;
+  --text-color: #f1b2ce;
+  background-image: var(--bg-image);
+  background-position: center;
+  background-size: cover;
+/*  background: url(../images/cover-image-dark.png) center / cover; */
   background-color: var(--bg-color);
   color: var(--text-color);
 }
 
 .theme_light .page {
   --text-color: #353430;
-  background: url(../images/cover-image-light.png) center / cover;
+  background-image: var(--bg-image);
+  background-position: center;
+  background-size: cover;
+  /*background: url(../images/cover-image-light.png) center / cover;  */
+  background-color: var(--bg-color);
   color: var(--text-color);
 }
 
@@ -375,19 +384,28 @@
 }
 
 .theme_light {
-  background: var(--bg-image) center / cover;
+  background-image: var(--bg-image);
+  background-position: center;
+  background-size: cover;
+  /*background: var(--bg-image) center / cover;*/
   background-repeat: repeat-y;
   background-attachment: fixed;
 }
 
 .theme_dark {
-  background: var(--bg-image) center / cover;
+  background-image: var(--bg-image);
+  background-position: center;
+  background-size: cover;
+  /*background: var(--bg-image) center / cover;*/
   background-attachment: fixed;
   background-color: var(--bg-color);
 }
 
 .theme_auto {
-  background: var(--bg-image) center / cover;
+  background-image: var(--bg-image);
+  background-position: center;
+  background-size: cover;
+  /*background: var(--bg-image) center / cover;*/
   background-attachment: fixed;
   background-color: var(--bg-color);
 }
