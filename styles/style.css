@@ -3,6 +3,7 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   font-family: "IBM Plex mono", sans-serif;
+  background-color: var(--bg-color);
   background: var(--bg-image) center / cover;
   background-attachment: fixed;
   max-inline-size: 1024px;
