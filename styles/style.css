@@ -374,6 +374,7 @@
 
 .theme_light {
   background: var(--bg-image) center / cover;
+  background-repeat: repeat-y;
   background-attachment: fixed;
 }
 
