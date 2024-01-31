@@ -40,6 +40,5 @@
 --decor-display: block;
 --bg-image: url(../images/cover-image-dark.png);
 
-background: var(--bg-image) center / cover;
 }
 

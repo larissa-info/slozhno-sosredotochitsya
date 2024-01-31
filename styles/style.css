@@ -3,8 +3,8 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   font-family: "IBM Plex mono", sans-serif;
+  background: var(--bg-image) center / cover;  
   background-color: var(--bg-color);
-  background: var(--bg-image) center / cover;
   background-attachment: fixed;
   max-inline-size: 1024px;
   min-inline-size: 375px;
@@ -14,7 +14,8 @@
 
 .theme_dark .page {
   --text-color: #F1B2CE;
-  background: url(../images/cover-image-dark.png) center / cover;
+ background: url(../images/cover-image-dark.png) center / cover;
+  background-color: var(--bg-color);
   color: var(--text-color);
 }
 
@@ -382,11 +383,13 @@
 .theme_dark {
   background: var(--bg-image) center / cover;
   background-attachment: fixed;
+  background-color: var(--bg-color);
 }
 
 .theme_auto {
   background: var(--bg-image) center / cover;
   background-attachment: fixed;
+  background-color: var(--bg-color);
 }
 
 .decorated-zone__footer::after {

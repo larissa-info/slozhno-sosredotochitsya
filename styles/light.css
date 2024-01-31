@@ -40,10 +40,6 @@
   --bg-color: #fff1f7;
   --bg-image: url(../images/cover-image-light.png);
   --decor-display: none;
-
-  background: var(--bg-image) center / cover;
-  background-attachment: fixed;
-
 }
 
 
