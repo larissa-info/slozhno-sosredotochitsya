@@ -13,10 +13,12 @@
 
 .theme_dark .page {
   background: url(../images/cover-image-dark.png) center / cover;
+  color: var(--text-color);
 }
 
 .theme_light .page {
   background: url(../images/cover-image-light.png) center / cover;
+  color: var(--text-color);
 }
 
 .header {
