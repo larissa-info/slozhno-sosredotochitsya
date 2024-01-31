@@ -3,10 +3,43 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+:root.theme-dark {
+  /* Дублируем переменные для тёмной темы */
+--title-color: #DB00FF;
+--text-color: #F1B2CE;
+--button-color: #FF0070;
+--accent-color: #FF0070;
+--bg-color: #000028;
+--bg-image: url(../images/cover-image-dark.png);
+--decor-display: block;
+}  
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --title-color: #DB00FF;
+    --text-color: #F1B2CE;
+    --button-color: #FF0070;
+    --accent-color: #FF0070;
+    --bg-color: #000028;
+    --decor-display: block;
+    --bg-image: url(../images/cover-image-dark.png);
+  }
+}
 
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --title-color: #DB00FF;
+--text-color: #F1B2CE;
+--button-color: #FF0070;
+--accent-color: #FF0070;
+--bg-color: #000028;
+--decor-display: block;
+--bg-image: url(../images/cover-image-dark.png);
+
+background: var(--bg-image) center / cover;
 }
+
