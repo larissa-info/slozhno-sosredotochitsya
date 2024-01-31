@@ -287,8 +287,7 @@
 }
 
 .content-section__text {
-  /* проверка автотеста color: var(--text-color);  */
-  color: greenyellow;
+  color: var(--text-color);
   font-size: 18px;
   font-weight: 400;
   line-height: 130%;
