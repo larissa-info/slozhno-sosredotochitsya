@@ -286,7 +286,7 @@
   margin-bottom: 10px;
 }
 
-.content-section__text {
+p.content-section__text {
   color: var(--text-color, #F1B2CE);
   font-size: 18px;
   font-weight: 400;
