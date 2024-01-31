@@ -12,11 +12,13 @@
 }
 
 .theme_dark .page {
+  --text-color: #F1B2CE;
   background: url(../images/cover-image-dark.png) center / cover;
   color: var(--text-color);
 }
 
 .theme_light .page {
+  --text-color: #353430;
   background: url(../images/cover-image-light.png) center / cover;
   color: var(--text-color);
 }
@@ -285,7 +287,8 @@
 }
 
 .content-section__text {
-  color: var(--text-color);
+  /* проверка автотеста color: var(--text-color);  */
+  color: greenyellow;
   font-size: 18px;
   font-weight: 400;
   line-height: 130%;
