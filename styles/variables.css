@@ -4,16 +4,19 @@
 */
 :root {
   --title-color: #db00ff;
+  --title-shadow: #ff0070;
   --text-color: #f1b2ce;
+  --sub-color: #000028;
   --accent-color: #ff0070;
   --button-color: #ff0070;
   --bg-color: #000028;
+  --hover-color: rgba(255, 0, 112, 0.4);
   --bg-image: url(../images/cover-image-dark.png);
   --decor-display: block;
   --padding-pg: 10px;
 }
 
-@media (768px <= width <= 1024px) {
+@media (min-width: 768px) {
   :root {
     --padding-pg: 20px;
   }
